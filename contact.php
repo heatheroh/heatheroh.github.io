@@ -1,13 +1,8 @@
-<!DOCTYPE HTML>
-
 <?php
-
 if($_POST["message"]) { mail("dmohalloran28@gmail.com", "Form to Email message", $_POST["message"], "From: dmohalloran28@gmail.com");}
-
 ?>
 
-
-
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>POD details</title>
@@ -43,7 +38,7 @@ if($_POST["message"]) { mail("dmohalloran28@gmail.com", "Form to Email message",
 					<header>
 						<h2>Get in touch</h2>
 					</header>
-					<form class="grid-form" method="post" action="index.php">
+					<form class="grid-form" method="post" action="contact.php">
 						<div class="form-control narrow">
 							<label for="name">Name</label>
 							<input name="name" id="name" type="text">
